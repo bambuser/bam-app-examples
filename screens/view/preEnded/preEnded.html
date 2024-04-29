@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="bam-ui">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre-ended screen</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      .outer-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .center {
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bam-container outer-wrapper">
+      <div class="bam-container center" data-padding="large">
+        <div class="bam-headline1">Thank you for watching!</div>
+        <div class="bam-title">A Bambuser App Framework screen placed in "pre-ended" slot</div>
+      </div>
+      <div class="bam-container center" data-spacing="small">
+        <p class="bam-body-bold">What did you think of the show?</p>
+        <div class="bam-container center" data-spacing="normal">
+          <div class="bam-container" data-spacing="normal" data-layout="row">
+            <label class="bam-container" data-spacing="small" data-layout="row">
+              <input type="radio" name="radio-choice-1" checked></input>
+              Superb
+            </label>
+            <label class="bam-container" data-spacing="small" data-layout="row">
+              <input type="radio" name="radio-choice-1"></input>
+              Great
+            </label>
+            <label class="bam-container" data-spacing="small" data-layout="row">
+              <input type="radio" name="radio-choice-1"></input>
+              Good
+            </label>
+          </div>
+          <button id="continue" data-variant="primary" data-size="large">Continue</button>
+      </div>
+    </div>
+    <script type="module" src="./preEnded.js"></script>
+  </body>
+</html>
