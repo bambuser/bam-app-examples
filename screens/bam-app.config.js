@@ -1,7 +1,6 @@
 export default {
   "appManifest": {
     "permissions": [
-      "callsWidget:host.run",
       "callsWidget:screen.write",
       "showsPlayer:screen.write"
     ],
