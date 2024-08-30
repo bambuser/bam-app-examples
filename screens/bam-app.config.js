@@ -1,14 +1,21 @@
 export default {
   "appManifest": {
     "permissions": [
-      "callsWidget:host.run",
-      "callsWidget:screen.write"
+      "callsWidget:screen.write",
+      "showsPlayer:screen.write"
     ],
     "src": {
       "type": "module",
       "url": "http://localhost:5173/main.js"
     },
     "screens": {
+      "showsPlayer": [{
+        "id": "my-custom-pre-enter-screen",
+        "slot": "pre-enter"
+      }, {
+        "id": "my-custom-pre-ended-screen",
+        "slot": "pre-ended"
+      }],
       "callsWidget": [{
         "id": "my-custom-drop-in-screen",
         "slot": "drop-in"

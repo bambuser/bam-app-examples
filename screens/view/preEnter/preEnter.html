@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" class="bam-ui">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre-enter screen</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+      .outer-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .center {
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bam-container outer-wrapper">
+      <div class="bam-container center" data-padding="large">
+        <div class="bam-headline1">Welcome</div>
+        <div class="bam-title">A Bambuser App Framework screen placed in "pre-enter" slot</div>
+      </div>
+      <div class="bam-container center" data-spacing="normal">
+        <div class="bam-container" data-layout="row-top">
+          <input type="checkbox" class="bam-checkbox" name="accept-terms" />
+          <span>I agree to the <a href="#" target="_blank">Terms of Service</a> and the <a href="#" target="_blank">Privacy Policy</a></span>
+        </div>
+        <button id="continue" data-variant="primary" data-size="large" disabled>Continue</button>
+      </div>
+    </div>
+    <script type="module" src="./preEnter.js"></script>
+  </body>
+</html>

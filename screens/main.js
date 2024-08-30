@@ -16,6 +16,10 @@ screenApi.on('provide-instance', async ({ id }) => {
       return new URL('./view/thankYouScreen/thankYouScreen.html', new URL(import.meta.url)).href;
     else if (id === 'my-custom-post-thank-you-screen')
       return new URL('./view/postThankYouScreen/postThankYouScreen.html', new URL(import.meta.url)).href;
+    else if (id === 'my-custom-pre-enter-screen')
+      return new URL('./view/preEnter/preEnter.html', new URL(import.meta.url)).href;
+    else if (id === 'my-custom-pre-ended-screen')
+      return new URL('./view/preEnded/preEnded.html', new URL(import.meta.url)).href;
   })();
 
   // 3. Create the screen instance
