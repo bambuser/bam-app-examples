@@ -15,11 +15,10 @@ Follow these steps to see the example in action:
 
 ### Live
 
-1. Open http://localhost:5173/devenv/#showsPlayer
+1. Open http://localhost:5173/devenv/?eventId=vAtJH3xevpYTLnf1oHao#showsPlayer
 2. You should see the custom screen rendered for the "pre-enter" slot
-3. Open http://localhost:5173/devenv/?eventId=vAtJH3xevpYTLnf1oHao#showsPlayer
-4. Fast forward to the end of the show by clicking towards the end of the player timeline
-5. When show ends, you should see the custom screen rendered for the "pre-ended" slot
+3. Fast forward to the end of the show by clicking towards the end of the player timeline
+4. When show ends, you should see the custom screen rendered for the "pre-ended" slot
 
 ### Calls
 

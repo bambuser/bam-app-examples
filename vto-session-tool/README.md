@@ -16,7 +16,7 @@ Follow these steps to see the example in action:
 1. Open http://localhost:5173/devenv/ if it wasn't automatically opened when starting the dev env
 2. In bottom right corner, press “…” menu and “Snowy” menu item, this is the custom VTO tool on shopper side
 3. Activate shopper camera
-4. Select 1:1 Agent Tool in top right corner
+4. Select Agent Tool in top right corner
 5. Search for product “Moisture Miracle Lipstick” or “Black Magic Mascara”
 6. Enable either or both products for try-on
 7. The products will be rendered in the custom VTO tool iframe on both sides

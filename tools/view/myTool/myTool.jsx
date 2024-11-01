@@ -34,13 +34,13 @@ const ToolView = ({ appContext }) => {
   return (
     <div className="bam-container">
       {hostId === 'showsPlayer' && (
-        <p>This is a custom tool view for shopper in Bambuser One-to-Many</p>
+        <p>This is a custom tool view for shoppers in Bambuser Live Player</p>
       )}
       {hostId === 'callsWidget' && (
-        <p>This is a custom tool view for shopper in Bambuser One-to-One</p>
+        <p>This is a custom tool view for shoppers in Bambuser Video Consultation</p>
       )}
       {hostId === 'callsAgentTool' && (
-        <p>This is a custom tool view for agent in Bambuser One-to-One</p>
+        <p>This is a custom tool view for agent in Bambuser Video Consultation</p>
       )}
       <button data-variant="primary" data-size="large-wide" onClick={onBtnClick}>Click me!</button>
       {btnClicked && <p>Look in dev tools console for messages sent between tool and main app context</p>}
