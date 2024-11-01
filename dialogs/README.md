@@ -13,6 +13,6 @@ npm run dev
 
 Follow these steps to see the example in action:
 
-1. Open http://localhost:5173/devenv/ if it wasn't automatically opened when starting the dev env
+1. Open http://localhost:5173/devenv/?screen=pre-call if it wasn't automatically opened when starting the dev env
 2. You should see the call widget opened with the example playground screen
 3. Click each button to open different kinds of dialogs

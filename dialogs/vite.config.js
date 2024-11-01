@@ -29,7 +29,7 @@ export default defineConfig(() => {
     ],
     server: {
       port: '5173',
-      open: '/devenv/',
+      open: '/devenv/?screen=pre-call',
     },
   };
 });
